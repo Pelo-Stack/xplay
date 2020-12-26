@@ -5,12 +5,12 @@
 <a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/mhankbarbar"><img title="Author" src="https://img.shields.io/badge/Author-mhankbarbar-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Pelo-Stack"><img title="Author" src="https://img.shields.io/badge/Author-Pelo-Stack-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/mhankbarbar/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/whatsapp-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mhankbarbar/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/whatsapp-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mhankbarbar/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/whatsapp-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Pelo-Stack/followers"><img title="Followers" src="https://img.shields.io/github/followers/Pelo-Stack?color=blue&style=flat-square"></a>
+<a href="https://github.com/Pelo-Stack/xplay/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Pelo-Stack/xplay?color=red&style=flat-square"></a>
+<a href="https://github.com/Pelo-Stack/xplay/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Pelo-Stack/xplay?color=red&style=flat-square"></a>
+<a href="https://github.com/Pelo-Stack/xplay/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Pelo-Stack/xplay?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="UNMAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
