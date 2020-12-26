@@ -5,7 +5,7 @@
 <a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Pelo-Stack/xplay"><img title="Author" src="https://img.shields.io/badge/Author-Pelo-Stack/xplay-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Pelo-Stack"><img title="Author Pelo-Stack" src="https://img.shields.io/badge/Author-Pelo-Stack-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Pelo-Stack/followers"><img title="Followers" src="https://img.shields.io/github/followers/Pelo-Stack?color=blue&style=flat-square"></a>
