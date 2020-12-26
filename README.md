@@ -18,7 +18,13 @@
 ## features
 
 -Kick @username
+
 -add @username
+
 -promote @username
+
 -demote @username
+
 -kickall
+
+-
