@@ -30,7 +30,7 @@ const vcard2 = 'BEGIN:VCARD\n' // metadata of the contact card
              + 'FN:Dyandra' // full name
              + 'ORG:Collab ama Ownerku;\n' // the organization of the contact
              + 'TEL;type=CELL;type=VOICE;waid=6285865462352:+62 858-6546-2352\n' // WhatsApp ID + phone number
-const help = require('./lib/help')
+const { help, readme } = require('./lib/help')
 const info = require('./lib/info')
 const donasi = require('./lib/donasi')
 
