@@ -27,4 +27,6 @@
 
 -kickall
 
+-mentionAll
+
 -
