@@ -53,7 +53,7 @@ var jam = moment().format("HH:mm");
              
 const apiKey = 'API-KEY' // apikey you can get it at https://mhankbarbar.herokuapp.com/api
 const time = moment(t * 1000).format('DD/MM HH:mm:ss')
-const botNumber = await client.getHostNumber()
+
 const blockNumber = await client.getBlockedIds()
 const groupId = isGroupMsg ? chat.groupMetadata.id : ''
 const groupAdmins = isGroupMsg ? await client.getGroupAdmins(groupId) : ''
