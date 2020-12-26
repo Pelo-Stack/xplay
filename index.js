@@ -50,6 +50,49 @@ const
    waChatKey,
 } = require("@adiwajshing/baileys");
 var jam = moment().format("HH:mm");
+
+const { exec } = require("child_process")
+
+const client = new WAConnection()
+
+client.on('qr', qr => {
+   qrcode.generate(qr, { small: true })
+   console.log(`[ ${time} ] QR code is ready, subscribe AnggorGAMEP`)
+})
+
+client.on('credentials-updated', () => {
+   const authInfo = client.base64EncodedAuthInfo()
+   console.log(`credentials updated!`)
+
+   fs.writeFileSync('./session.json', JSON.stringify(authInfo, null, '\t'))
+})
+
+fs.existsSync('./session.json') && client.loadAuthInfo('./session.json')
+
+client.connect();
+
+// client.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log(`${time}: Bot by ig:@_sadboy.ig`)
+
+client.on('message-status-update', json => {
+   const participant = json.participant ? ' (' + json.participant + ')' : ''
+   console.log(`[ ${time} ] => bot by ig:@anggorgamep`)
+})
+
+client.on('message-new', async (m) => {
+   const messageContent = m.message
+   const text = m.message.conversation
+   const messageType = Object.keys(messageContent)[0]
+
+   const re = /[\#\!\@\/\?\%\$\.]/
+
+   const value = text.split(' ').splice(1).join(' ')
+
+   let id = m.key.remoteJid
+   let imageMessage = m.message.imageMessage
+
+   const prefix = messageType === 'imageMessage' ? imageMessage.caption.split(' ')[0].split(re)[1] : text.split(' ')[0].split(re)[1] // multiple prefix
+
+   console.log(`[ ${time} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`); 
              
 const apiKey = 'API-KEY' // apikey you can get it at https://mhankbarbar.herokuapp.com/api
 const time = moment(t * 1000).format('DD/MM HH:mm:ss')
